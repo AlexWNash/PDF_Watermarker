@@ -1,6 +1,6 @@
 import PyPDF2
 
-template = PyPDF2.PdfFileReader(open('merged.pdf', 'rb'))
+template = PyPDF2.PdfFileReader(open('original.pdf', 'rb'))
 watermark = PyPDF2.PdfFileReader(open('wtrmk.pdf', 'rb'))
 output = PyPDF2.PdfFileWriter()
 
